@@ -1,5 +1,5 @@
 def my_select(collection)
- array.select do |num|
+ collection.select do |num|
    num.even?
  end
 end
