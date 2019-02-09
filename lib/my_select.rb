@@ -1,3 +1,4 @@
 def my_select(collection)
- array.select()
+ array.select do |num|
+   num
 end
